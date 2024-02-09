@@ -1,5 +1,9 @@
+#==========================================================================================================
+# This is a simple bubble sort algorithm implemented into Assembly 
+# last modified 9/30/2022 by Joey Banaszak
+#==========================================================================================================
 	.data 
-#variables... yay
+#variables
 	num_of_nums:	.asciiz "How many numbers would you like to sort?(1-10): "
 	error:		.asciiz "The number you entered was outside the given range, try again: "
 	new_line:	.asciiz "\n"
